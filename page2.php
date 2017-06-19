@@ -5,7 +5,7 @@ session_start();
  <html>
    <head>
      <meta charset="utf-8" lang="fr">
-     <link rel="stylesheet" href="/bootstap.css">
+     <link rel="stylesheet" href="/bootstrap.css">
      <link rel="stylesheet" href="/style.css">
      <title>Page de vérification</title>
    </head>

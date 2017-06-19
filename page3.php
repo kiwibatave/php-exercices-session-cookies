@@ -5,7 +5,7 @@ session_start();
  <html>
    <head>
      <meta charset="utf-8" lang="fr">
-     <link rel="stylesheet" href="/bootstap.css">
+     <link rel="stylesheet" href="/bootstrap.css">
      <link rel="stylesheet" href="/style.css">
      <title>Login & PWD</title>
    </head>
@@ -14,7 +14,7 @@ session_start();
      <p>Re-bonjour !</p>
 
      <p>
-      Votre login est <?php echo $_COOKIE['log']; ?> !<br />
+      Votre login est <?= $_COOKIE['log']; ?> !<br />
       Votre passeword est <?= $_COOKIE['mdp']; ?>
 
     </p>
