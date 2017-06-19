@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+  width: auto;
+}
+body {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+}
+.container {
+  display: flex;
+}
